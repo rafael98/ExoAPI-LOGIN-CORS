@@ -18,19 +18,20 @@ base(options)
         protected override void OnConfiguring(DbContextOptionsBuilder
 optionsBuilder)
         {
-            if(!optionsBuilder.IsConfigured)
+            if (!optionsBuilder.IsConfigured)
             {
                 // Essa string de conexão depende da SUA máquina.
-                    optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=ExoApi;User ID=sa;Password=12345;Trusted_Connection=False;");
-                                    
+                optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=ExoApi;User ID=sa;Password=12345;Trusted_Connection=False;");
+
                 // Exemplo 1 de string de conexão:
                 // User ID=sa;Password=admin;Server=localhost;Database=ExoApi;-
                 // + Trusted_Connection=False;
-                
+
                 // Exemplo 2 de string de conexão:
                 // Server=localhost\\SQLEXPRESS;Database=ExoApi;Trusted_Connection=True;
             }
         }
         public DbSet<Projeto> Projetos { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
     }
 }
