@@ -271,3 +271,4 @@ C:\Users\Rafael\Desktop\ExoAPI\obj\Debug\net8.0\refint\Exo.WebApi.dll
 C:\Users\Rafael\Desktop\ExoAPI\obj\Debug\net8.0\Exo.WebApi.pdb
 C:\Users\Rafael\Desktop\ExoAPI\obj\Debug\net8.0\Exo.WebApi.genruntimeconfig.cache
 C:\Users\Rafael\Desktop\ExoAPI\obj\Debug\net8.0\ref\Exo.WebApi.dll
+C:\Users\Rafael\Desktop\ExoAPI\obj\Debug\net8.0\Exo.WebApi.sourcelink.json
